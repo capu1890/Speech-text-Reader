@@ -7,53 +7,37 @@ const closeBtn = document.getElementById('close');
 
 const data = [
   {
-    image: './img/drink.jpg',
-    text: "I'm Thirsty"
+    image: './img/airforceones.jpg',
+    text: "Air Force ones"
   },
   {
-    image: './img/food.jpg',
-    text: "I'm Hungry"
+    image: './img/sherpajacket.jpg',
+    text: "Sherpa Trucker Jacket"
   },
   {
-    image: './img/tired.jpg',
-    text: "I'm Tired"
+    image: './img/adidas-Grey-Yeezy-Boost-350-V2.jpeg',
+    text: "Yeezy Boost 350 v2"
   },
   {
-    image: './img/hurt.jpg',
-    text: "I'm Hurt"
+    image: './img/essentialhoodie.jpg',
+    text: "Essential Hoodie"
   },
   {
-    image: './img/happy.jpg',
-    text: "I'm Happy"
+    image: './img/oldschoolvans.jpg',
+    text: "Vans Classic Black"
   },
   {
-    image: './img/angry.jpg',
-    text: "I'm Angry"
+    image: './img/bomberjacket.jpg',
+    text: "Olive Green Padded Bomber Jacket"
   },
   {
-    image: './img/sad.jpg',
-    text: "I'm Sad"
+    image: './img/chelseaboots.jpg',
+    text: "Chelsea Boots"
   },
   {
-    image: './img/scared.jpg',
-    text: "I'm Scared"
+    image: './img/skinnyrippedjeans.jpg',
+    text: "Skinny Ripped Jeans Black"
   },
-  {
-    image: './img/outside.jpg',
-    text: 'I Want To Go Outside'
-  },
-  {
-    image: './img/home.jpg',
-    text: 'I Want To Go Home'
-  },
-  {
-    image: './img/school.jpg',
-    text: 'I Want To Go To School'
-  },
-  {
-    image: './img/grandma.jpg',
-    text: 'I Want To Go To Grandmas'
-  }
 ];
 
 data.forEach(createBox);
@@ -78,14 +62,6 @@ function createBox(item) {
     // Add active effect
     box.classList.add('active');
     setTimeout(() => box.classList.remove('active'), 800);
-  });
-
-  box.addEventListener('click', () => {
-      setTextMessage(text);
-      speakText();
-
-      box.classList.add('active');
-      setTimeout(() => box.classList.remove('active'), 500);
   });
 
   main.appendChild(box);

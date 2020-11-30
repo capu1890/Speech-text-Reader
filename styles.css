@@ -5,7 +5,7 @@
 }
 
 body {
-  background: #ffefea;
+  background: #fff;
   font-family: 'Lato', sans-serif;
   min-height: 100vh;
   margin: 0;
@@ -22,7 +22,7 @@ h1 {
 
 .btn {
   cursor: pointer;
-  background-color: darksalmon;
+  background-color: lightgrey;
   border: 0;
   border-radius: 4px;
   color: #fff;
@@ -63,7 +63,7 @@ select:focus {
 }
 
 .text-box select {
-  background-color: darksalmon;
+  background-color: lightgrey;
   border: 0;
   color: #fff;
   font-size: 12px;
@@ -108,17 +108,17 @@ main {
 }
 
 .box.active {
-  box-shadow: 0 0 10px 5px darksalmon;
+  box-shadow: 0 0 10px 5px lightgrey;
 }
 
 .box img {
   width: 100%;
   object-fit: cover;
-  height: 200px;
+  height: 250px;
 }
 
 .box .info {
-  background-color: darksalmon;
+  background-color: lightgrey;
   color: #fff;
   font-size: 18px;
   letter-spacing: 1px;
